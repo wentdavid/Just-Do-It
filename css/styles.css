@@ -7,29 +7,38 @@ background: #dfdfdf;
 }
 
 .container{
+    position: relative;
 padding: 20px;
 width: 300px;
 margin: 0 auto;
 margin-top: 40px;
 background: white;
-border-radius: 5px;}
+border-radius: 30px;
+box-shadow: 0 0 30px -10px #000;
+}
 
 form {
 display: inline-block;
+border-radius: 30px;
 }
 
 input{
 padding: 4px 15px 4px 5px;
+border-radius: 30px;
 }
 
 #button{
+position: absolute;
 display: inline-block;
-background-color:#fc999b;
+background-color:#000000;
 color:#ffffff;
-border-radius: 5px;
+border-radius: 100%;
 text-align:center;
-margin-top:2px;
-padding: 5px 15px;
+padding: 8px 10px;
+right: 120px;
+top: 111px;
+font-size: 19px;
+
 }
 
 #button:hover{
@@ -40,7 +49,7 @@ ol {padding-left: 20px;}
 
 ol li {padding: 5px;color:#000;}
 
-ol li:nth-child(even){background: #dfdfdf;}
+ol li:nth-child(even){background: #dfdfdf;border-radius: 30px;}
 
 .strike{text-decoration: line-through;}
 
@@ -53,9 +62,11 @@ li:hover{
 }
 
 li > crossOutButton {
+    position: absolute;
 	background: none;
 	border: none;
 	float: right;
-	color: #025f70;
+    color:#bc0000;
 	font-weight: 800;
+    right: 32px;
 }
